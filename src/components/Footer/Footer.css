@@ -1,0 +1,8 @@
+.none{
+    text-decoration: none;
+    color: #fff;
+    font-size:18px
+}
+.none:hover {
+    color: #ccc
+}

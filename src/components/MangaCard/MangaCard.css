@@ -1,0 +1,48 @@
+.bordered {
+    border-radius: 1rem;
+    -webkit-box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+    box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+}
+
+.manga-img {
+    width: 170px;
+    height: 200px;
+    border: 2px solid #ffc107;
+}
+
+.manga-tags {
+    width: 180px;
+}
+
+.manga-name{
+    text-align: center;
+    padding: 1rem 1rem 0rem 1rem;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 190px;
+    white-space: nowrap;
+}
+
+.card {
+    align-items: center;
+    width: calc((100% - 4rem) / 5);
+    height: auto;
+    min-height: 400px;
+    float: left;
+    margin: .4rem;
+    padding: 1rem 0px;
+    background: #ffffff;
+    position: relative;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.card:hover {
+    box-shadow: 0 2px 12px 0 rgb(0 0 0 / 30%);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+    z-index: 1;
+    cursor: pointer;
+}
